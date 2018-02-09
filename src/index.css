@@ -1,0 +1,95 @@
+*{box-sizing: border-box;
+  list-style-type: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: rgb(250, 250, 250);
+}
+
+.User{display: inline-block;
+  width: 48%;
+  margin:1%;
+  background-color:rgb(255, 255, 255);
+  box-shadow:  0px 0px 18px 1px rgba(0,0,0,0.1);;
+}
+  
+.user-photo{width:100px;
+  float: right;
+  padding: 10px;
+}
+
+.UserList{
+
+}
+
+.UserList-in-profile{width: 70%;
+  display:inline-block;
+  padding-right:10px;
+}
+
+.Profile{width:30%;
+  display:inline-block;
+  /* float: right; */
+  position: fixed;
+  height: 100vh;
+  border-left: 1px solid rgb(224, 223, 223);
+  /* padding:10px; */
+}
+
+.close-button{float: right;
+}
+
+.profile-photo{width:100%;
+  border-radius: 5px;
+  padding:10px;
+  height:100%;
+}
+
+img.circle {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  max-width: 60%;
+}
+
+h3{display: inline-block;
+}
+
+.input{clear: both;
+  margin:10px;
+}
+
+.profile-header{background-color: rgb(255, 254, 254);
+  text-align: center;
+  box-shadow: 0px 4px 11px -3px rgba(0,0,0,0.2);
+  position: inherit;
+}
+
+h4{display: inline-block; 
+}
+
+.CheckBox{display: inline-block;
+  margin:10px;
+}
+
+.Checkboxes{display: inline-block;
+}
+
+.Attendant{display: inline-block;
+  width: 100%;
+  margin:1%;
+  background-color:rgb(255, 255, 255);
+  box-shadow:  0px 0px 18px 1px rgba(0,0,0,0.1);
+}
+
+.Attendant-name{display: inline-block;
+  width: 200px;
+  padding:5px 5px 5px 10px;
+  background-color:rgb(255, 255, 255);
+  border-right: 1px solid rgb(224, 223, 223);
+  /* box-shadow:  0px 0px 18px 1px rgba(0,0,0,0.1);; */
+}
